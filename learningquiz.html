@@ -1,0 +1,289 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1894.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    span.Apple-tab-span {white-space:pre}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;head&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">   </span>&lt;b&gt;Find Your Learning Style Here!&lt;/b&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p2"><br></p>
+<p class="p2"><span class="Apple-tab-span">	</span></p>
+<p class="p2"><br></p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p&gt;This quiz will help you identify your learning style!&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">   </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-tab-span">	</span>var myQuestions = [</p>
+<p class="p1"><span class="Apple-converted-space">    </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>question: "I prefer a presenter or a teacher who uses:",</p>
+<p class="p1"><span class="Apple-converted-space">        </span>answers: {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>a: "diagrams, charts, maps or graphs.",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>b: "question and answer, talk, group discussion, or guest speakers.",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>c: "handouts, books, or readings.",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>d: "demonstrations, models or practical sessions."</p>
+<p class="p1"><span class="Apple-converted-space">        </span>},</p>
+<p class="p1"><span class="Apple-converted-space">        </span>},</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>question: "A website has a video showing how to make a special graph or chart. There is a person speaking, some lists and words describing what to do and some diagrams. I would learn most from:",</p>
+<p class="p1"><span class="Apple-converted-space">        </span>answers: {</p>
+<p class="p1"><span class="Apple-converted-space">           </span>a: "seeing the diagrams.",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>b: "listening",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>c: "reading the words.",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>d: "watching the actions."</p>
+<p class="p1"><span class="Apple-converted-space">        </span>},</p>
+<p class="p1"><span class="Apple-converted-space">        </span>},</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">          </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>question: "I want to save more money and to decide between a range of options. I would:",</p>
+<p class="p1"><span class="Apple-converted-space">        </span>answers: {</p>
+<p class="p1"><span class="Apple-converted-space">           </span>a: "use graphs showing different options for different time periods.",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>b: "talk with an expert about the options.",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>c: "read a print brochure that describes the options in detail.",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>d: "consider examples of each option using my financial information."</p>
+<p class="p1"><span class="Apple-converted-space">        </span>},</p>
+<p class="p1"><span class="Apple-converted-space">        </span>},</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">         </span>{</p>
+<p class="p1"><span class="Apple-converted-space">        </span>question: "I have a problem with my heart. I would prefer that the doctor:",</p>
+<p class="p1"><span class="Apple-converted-space">        </span>answers: {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>a: "showed me a diagram of what was wrong.",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>b: "described what was wrong.",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>c: "gave me something to read to explain what was wrong.",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>d: "used a plastic model to show me what was wrong."</p>
+<p class="p1"><span class="Apple-converted-space">        </span>},</p>
+<p class="p1"><span class="Apple-converted-space">        </span>},</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>//q6</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>question: "I want to learn how to take better photos. I would:",</p>
+<p class="p1"><span class="Apple-converted-space">        </span>answers: {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>a: "use diagrams showing the camera and what each part does.",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>b: "ask questions and talk about the camera and its features.",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>c: "use the written instructions about what to do.",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>d: "use examples of good and poor photos showing how to improve them."</p>
+<p class="p1"><span class="Apple-converted-space">        </span>},</p>
+<p class="p1"><span class="Apple-converted-space">        </span>},</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1">];</p>
+<p class="p2"><br></p>
+<p class="p1">var quizContainer = document.getElementById('quiz');</p>
+<p class="p1">var resultsContainer = document.getElementById('results');</p>
+<p class="p1">var submitButton = document.getElementById('submit');</p>
+<p class="p2"><br></p>
+<p class="p1">generateQuiz(myQuestions, quizContainer, resultsContainer, submitButton);</p>
+<p class="p2"><br></p>
+<p class="p1">function generateQuiz(questions, quizContainer, resultsContainer, submitButton){</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function showQuestions(questions, quizContainer){</p>
+<p class="p1"><span class="Apple-converted-space">        </span>// store the output and the answer choices</p>
+<p class="p1"><span class="Apple-converted-space">        </span>var output = [];</p>
+<p class="p1"><span class="Apple-converted-space">        </span>var answers;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// for each question</p>
+<p class="p1"><span class="Apple-converted-space">        </span>for(var i=0; i&lt;questions.length; i++){</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// first reset the list of answers</p>
+<p class="p1"><span class="Apple-converted-space">            </span>answers = [];</p>
+<p class="p2"><br></p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>for(letter in questions[i].answers){</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>answers.push(</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>'&lt;label&gt;'</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>+ '&lt;input type="radio" name="question'+i+'" value="'+letter+'"&gt;'</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>+ letter + ': '</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>+ questions[i].answers[letter]</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>+ '&lt;/label&gt;'</p>
+<p class="p1"><span class="Apple-converted-space">                </span>);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// add this question and its answers to the output</p>
+<p class="p1"><span class="Apple-converted-space">            </span>output.push(</p>
+<p class="p1"><span class="Apple-converted-space">                </span>'&lt;div class="question"&gt;' + questions[i].question + '&lt;/div&gt;'</p>
+<p class="p1"><span class="Apple-converted-space">                </span>+ '&lt;div class="answers"&gt;' + answers.join('') + '&lt;/div&gt;'</p>
+<p class="p1"><span class="Apple-converted-space">            </span>);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// finally combine our output list into one string of html and put it on the page</p>
+<p class="p1"><span class="Apple-converted-space">        </span>quizContainer.innerHTML = output.join('');</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function showResults(questions, quizContainer, resultsContainer){</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>var answerContainers = quizContainer.querySelectorAll('.answers');</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// keep track of user's answers</p>
+<p class="p1"><span class="Apple-converted-space">        </span>var userAnswer = '';</p>
+<p class="p1"><span class="Apple-converted-space">        </span>var numCorrect = 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>var visAnswers = 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>var audAnswers = 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>var rrAnswers = 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>var kinAnswers = 0;</p>
+<p class="p2"><span class="Apple-converted-space">       </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>for(var i=0; i&lt;questions.length; i++){</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        <span class="Apple-tab-span">	</span></span>//count number of audio, visual, etc. answers</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>// find selected answer</p>
+<p class="p1"><span class="Apple-converted-space">            </span>userAnswer = (answerContainers[i].querySelector('input[name=question'+i+']:checked')||{}).value;</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">             </span>//counts user score for each learning style</p>
+<p class="p2"><span class="Apple-converted-space">             </span></p>
+<p class="p1"><span class="Apple-converted-space">             </span>if (userAnswer=='a') {</p>
+<p class="p1"><span class="Apple-converted-space">             <span class="Apple-tab-span">	</span></span>visAnswers++;</p>
+<p class="p2"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></p>
+<p class="p1"><span class="Apple-converted-space">             </span>}</p>
+<p class="p2"><span class="Apple-converted-space">             </span></p>
+<p class="p1"><span class="Apple-converted-space">               </span>if (userAnswer=='b') {</p>
+<p class="p1"><span class="Apple-converted-space">               <span class="Apple-tab-span">	</span></span>audAnswers++;</p>
+<p class="p1"><span class="Apple-converted-space">             </span>}</p>
+<p class="p2"><span class="Apple-converted-space">             </span></p>
+<p class="p1"><span class="Apple-converted-space">               </span>if (userAnswer=='c') {</p>
+<p class="p1"><span class="Apple-converted-space">             <span class="Apple-tab-span">	</span> </span>rrAnswers++;</p>
+<p class="p1"><span class="Apple-converted-space">             </span>}</p>
+<p class="p2"><span class="Apple-converted-space">             </span></p>
+<p class="p1"><span class="Apple-converted-space">               </span>if (userAnswer=='d') {</p>
+<p class="p1"><span class="Apple-converted-space">             <span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span></span>kinAnswers++;</p>
+<p class="p1"><span class="Apple-converted-space">             </span>}</p>
+<p class="p2"><span class="Apple-converted-space">             </span></p>
+<p class="p1"><span class="Apple-converted-space">             </span>//end of 4th question</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>} //end of for loop</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1">//creates array to hold all total scores for each learning category</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>let scores = Array(4);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>scores[0] = visAnswers;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>scores[1] = audAnswers;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>scores[2] = rrAnswers;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>scores[3] = kinAnswers;</p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>var max = scores[0];</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>//find maximum learning score</p>
+<p class="p1"><span class="Apple-converted-space">        </span>var t1 = 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>for (var t=0; t&lt;4; t++) {</p>
+<p class="p1"><span class="Apple-converted-space">        <span class="Apple-tab-span">	</span></span>if (scores[t]&gt;max) {</p>
+<p class="p1"><span class="Apple-converted-space">          <span class="Apple-tab-span">	</span></span>max = scores[t];</p>
+<p class="p1"><span class="Apple-converted-space">            </span>t1 = t;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>}</p>
+<p class="p2"><span class="Apple-converted-space">          </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>var tie_exists = 0;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>var t2 = 0;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>for (var t=0; t&lt;4; t++) {</p>
+<p class="p1"><span class="Apple-converted-space">        <span class="Apple-tab-span">	</span></span>if (scores[t] == max) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>tie_exists++;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (tie_exists == 2) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>t2 = t;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">          </span>}</p>
+<p class="p2"><span class="Apple-converted-space">          </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>if (tie_exists &gt; 1) { //if we have a tie</p>
+<p class="p1"><span class="Apple-converted-space">        </span>//-------visual ties------------</p>
+<p class="p1"><span class="Apple-converted-space">          </span>if ((t1 == 0) &amp;&amp; (t2 == 1)) {</p>
+<p class="p1"><span class="Apple-converted-space">        <span class="Apple-tab-span">	</span></span>resultsContainer.innerHTML = 'you have a tie in your learning styles between visual and auditory.';</p>
+<p class="p1"><span class="Apple-converted-space">          </span>}</p>
+<p class="p2"><span class="Apple-converted-space">          </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>if ((t1 == 0) &amp;&amp; (t2 == 2)) {</p>
+<p class="p1"><span class="Apple-converted-space">        <span class="Apple-tab-span">	</span></span>resultsContainer.innerHTML = 'you have a tie in your learning styles between visual and reading/writing.';</p>
+<p class="p1"><span class="Apple-converted-space">          </span>}</p>
+<p class="p2"><span class="Apple-converted-space">          </span></p>
+<p class="p1"><span class="Apple-converted-space">           </span>if ((t1 == 0) &amp;&amp; (t2 == 3)) {</p>
+<p class="p1"><span class="Apple-converted-space">        <span class="Apple-tab-span">	</span></span>resultsContainer.innerHTML = 'you have a tie in your learning styles between visual and kinesthetic.';</p>
+<p class="p1"><span class="Apple-converted-space">          </span>}</p>
+<p class="p1"><span class="Apple-converted-space">          </span>//-----auditory ties--------</p>
+<p class="p1"><span class="Apple-converted-space">          </span>if ((t1 == 1) &amp;&amp; (t2 == 2)) {</p>
+<p class="p1"><span class="Apple-converted-space">        <span class="Apple-tab-span">	</span></span>resultsContainer.innerHTML = 'you have a tie in your learning styles between auditory and reading/writing.';</p>
+<p class="p1"><span class="Apple-converted-space">          </span>}</p>
+<p class="p2"><span class="Apple-converted-space">          </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>if ((t1 == 1) &amp;&amp; (t2 == 3)) {</p>
+<p class="p1"><span class="Apple-converted-space">        <span class="Apple-tab-span">	</span></span>resultsContainer.innerHTML = 'you have a tie in your learning styles between auditory and kinesthetic.';</p>
+<p class="p1"><span class="Apple-converted-space">          </span>}</p>
+<p class="p2"><span class="Apple-converted-space">          </span></p>
+<p class="p1"><span class="Apple-converted-space"> </span>//---------rr ties-------------<span class="Apple-converted-space">   </span></p>
+<p class="p1"><span class="Apple-converted-space">   </span>if ((t1 == 2) &amp;&amp; (t2 == 3)) {</p>
+<p class="p1"><span class="Apple-converted-space">        <span class="Apple-tab-span">	</span></span>resultsContainer.innerHTML = 'you have a tie in your learning styles between reading/writing and kinesthetic.';</p>
+<p class="p1"><span class="Apple-converted-space">          </span>}</p>
+<p class="p2"><span class="Apple-converted-space">          </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p2"><span class="Apple-converted-space">     </span></p>
+<p class="p2"><span class="Apple-converted-space">     </span></p>
+<p class="p1"><span class="Apple-converted-space">     </span>else {<span class="Apple-converted-space">   </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>if (max == scores[0]) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>resultsContainer.innerHTML = 'your dominant style is visual with ' + max + ' out of ' + questions.length;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>window.open("https://www.cowley.edu/academics/skills/tipsvl.html");</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">         </span>if (max == scores[1]) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>resultsContainer.innerHTML = 'your dominant style is auditory with ' + max + ' out of ' + questions.length;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>window.open("https://www.cowley.edu/academics/skills/tipsal.html");</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">         </span>if (max == scores[2]) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>resultsContainer.innerHTML = 'your dominant style is reading and writing with ' + max + ' out of ' + questions.length;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>window.open("https://www.k-state.edu/biology/pob/succeed/read.html");</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">         </span>if (max == scores[3]) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>resultsContainer.innerHTML = 'your dominant style is kinesthetic with ' + max + ' out of ' + questions.length;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>window.open("https://www.cowley.edu/academics/skills/tipstk.html");</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>// show questions asap</p>
+<p class="p1"><span class="Apple-converted-space">    </span>showQuestions(questions, quizContainer);</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>// on submit, show results</p>
+<p class="p1"><span class="Apple-converted-space">    </span>submitButton.onclick = function(){</p>
+<p class="p1"><span class="Apple-converted-space">        </span>showResults(questions, quizContainer, resultsContainer);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">   </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/script&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p2"><span class="Apple-tab-span">	</span></p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-tab-span">	</span>&lt;style&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>body {</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>background: #F0DDFF;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>color: #000000;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-tab-span">	</span>&lt;/style&gt;</p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space"> </span>&lt;/html&gt;</p>
+</body>
+</html>
