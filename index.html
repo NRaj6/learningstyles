@@ -18,10 +18,13 @@
 	
 
 <body>
-<p>This quiz will help you identify your learning style!</p>
-
- <script>
-	var myQuestions = [
+  <p>This quiz will help you identify your learning style!</p>
+  <div id="quiz"></div>
+  <button id="submit">Get Results</button>
+  <div id="results"></div>
+  
+  <script>
+	  var myQuestions = [
     {
         question: "I prefer a presenter or a teacher who uses:",
         answers: {
@@ -150,7 +153,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
              }
              
                if (userAnswer=='c') {
-             	 rrAnswers++;
+             	rrAnswers++;
              }
              
                if (userAnswer=='d') {
@@ -259,8 +262,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
     }
 
    }
- </script>
-
+  </script>
 </body>
 
-</html>
+
